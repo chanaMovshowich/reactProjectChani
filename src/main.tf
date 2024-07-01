@@ -17,12 +17,12 @@ resource "aws_subnet" "example_subnet" {
   }
 }
 
-resource "aws_instance" "example_instance" {
+resource "aws_instance" "example_instace" {
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
   subnet_id     = aws_subnet.example_subnet.id
   tags = {
-    yor_name  = "example_instance"
+    yor_name  = "example_instace"
     yor_trace = "15178587-c42e-490e-9c31-69e63add8d75"
   }
 }
