@@ -12,8 +12,6 @@ resource "aws_subnet" "example_subnet" {
   cidr_block        = "10.0.1.0/24"
   availability_zone = "us-west-1a"
   tags = {
-    yor_name  = "example_subnet"
-    yor_trace = "93435a1f-4429-46dd-bc37-f3a6c945d1f6"
   }
 }
 
