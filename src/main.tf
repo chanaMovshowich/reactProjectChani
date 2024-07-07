@@ -2,7 +2,6 @@
 resource "aws_vpc" "example_vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    yor_name  = "example_vpc"
     yor_trace = "b2d07855-5983-4677-8d52-ac9c0e33129e"
   }
 }
